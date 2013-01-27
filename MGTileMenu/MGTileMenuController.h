@@ -78,6 +78,7 @@ CGGradientRef MGCreateGradientWithColors(UIColor *topColorRGB, UIColor *bottomCo
 - (void)tileDeselected:(id)sender; // action for each tile is unhighlighted, switched on tag index.
 - (void)animateTilesForCurrentPage;
 - (void)setAllTilesInteractionEnabled:(BOOL)enabled;
+- (NSArray *)_animationsForAppearing:(BOOL)appearing;
 
 @end
 
